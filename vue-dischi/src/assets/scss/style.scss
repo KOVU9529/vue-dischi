@@ -1,0 +1,10 @@
+@import '~@fontsource/montserrat/index.css';
+@import'~@fontsource/montserrat/700.css';
+
+@import './vars.scss';
+
+.section{
+    font-family: $main_font;
+    color: $text_color;
+    background-color: $sfondo;
+}

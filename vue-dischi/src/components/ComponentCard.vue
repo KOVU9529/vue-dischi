@@ -5,18 +5,21 @@
         <div>{{music.title}}</div>
         <div class="text">
             <div class="color">{{music.author}}</div>
-            <div class="color">{{music.year}}</div>            
-        </div>
+            <div class="color">{{music.year}}</div>  
+            <div class="color">{{music.genre}}</div>
 
+        </div>
     </div>
   </div>
 </template>
+
 <script>
 export default {
     name:'ComponentCard',
     props:['music']
 }
 </script>
+
 <style lang="scss" scoped>
     .card{      
         padding: 10px;
@@ -35,7 +38,6 @@ export default {
                 color: #5b6368;
             }
         }
-       
         img{
             width: 100%;
         }

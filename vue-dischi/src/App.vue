@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <HeaderComponent />
+    <SelectComponent />
     <ListCard />
   </div>
 </template>
@@ -8,12 +9,14 @@
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
 import ListCard from './components/ListCard.vue'
+import SelectComponent from './components/SelectComponent.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
-    ListCard
+    ListCard,
+    SelectComponent
   }
 }
 </script>

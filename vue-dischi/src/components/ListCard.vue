@@ -1,5 +1,5 @@
 <template>
-    <div class="section">
+    <div class="section">     
       <div class="container">
           <div class="musicDisc" v-for="music,index in musicList" :key="index">
             <ComponentCard :music="music"/>
@@ -45,7 +45,6 @@ export default {
     padding: 40px 350px;
     
    .musicDisc{
-       
         width: calc((100% / 5) - 16px);
         margin: 0 8px;
     }

@@ -1,7 +1,7 @@
 <template>
   <div>  
     <div class="card">
-        <img  :src="music.poster" :alt="music.name">
+        <img  :src="music.poster" :alt="music.title">
         <div>{{music.title}}</div>
         <div class="text">
             <div class="color">{{music.author}}</div>

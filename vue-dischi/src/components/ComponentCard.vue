@@ -5,9 +5,7 @@
         <div>{{music.title}}</div>
         <div class="text">
             <div class="color">{{music.author}}</div>
-            <div class="color">{{music.year}}</div>  
-            <div class="color">{{music.genre}}</div>
-
+            <div class="color">{{music.year}}</div> 
         </div>
     </div>
   </div>

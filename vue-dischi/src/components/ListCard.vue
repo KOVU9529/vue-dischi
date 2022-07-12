@@ -11,8 +11,7 @@
 <script>
 import axios from "axios";
 import ComponentCard from './ComponentCard.vue';
-export default {
-    
+export default {  
     props:{
         activeFilter: String
     },
@@ -32,7 +31,6 @@ export default {
             if(this.activeFilter === 'All') {
                 return this.musicList;
             }
-
             return this.musicList.filter((item) => item.genre === this.activeFilter)
         }
     },
@@ -52,16 +50,17 @@ export default {
 <style lang="scss" scoped>
 .section{
     height: 100vh;
-}
-.container{
+    .container{
     background-color: #1e2d3c;
     display: flex;
     flex-wrap: wrap;
     align-content: stretch;
-    padding: 40px 350px;
+    padding: 30px 350px;
    .musicDisc{
         width: calc((100% / 5) - 16px);
         margin: 0 8px;
     }
 }
+}
+
 </style>

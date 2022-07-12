@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <HeaderComponent />
-    <!---->
     <SelectComponent @changeGender="startSearch"/>
     <ListCard :activeFilter='activeGenre'/>
   </div>
 </template>
+
 <script>
 import HeaderComponent from './components/HeaderComponent.vue'
 import ListCard from './components/ListCard.vue'

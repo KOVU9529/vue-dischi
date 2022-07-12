@@ -26,5 +26,20 @@ export default {
 }
 </script>
 
-<style>
+.<style lang="scss" scoped>
+.select{
+    display: flex;
+    justify-content: center;
+    background-color: #1e2d3c;
+    padding: 10px;
+    #selectGenre{
+        width:20% ;
+        background-color: #2f3a47;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        padding: 10px;
+    }
+}
 </style>
+
